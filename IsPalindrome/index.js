@@ -13,7 +13,7 @@
 function isPalindrome(textString) {
 	textString = textString.toLowerCase();
 	let charactersArr = textString.split('');
-	let validCharacters = 'abcdefghiijklmnopqrstuvwxyz'.split('');
+	let validCharacters = 'abcdefghijklmnopqrstuvwxyz'.split('');
 
 	let lettersArr = [];
 	charactersArr.forEach(char => {
