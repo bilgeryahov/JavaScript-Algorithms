@@ -7,6 +7,10 @@
  * should be returned.
  *
  * @Example: fibonacci(4) returns 3; fibonacci(9) returns 34...
+ *
+ * @author Bilger Yahov <bayahov1@gmail.com>
+ * @version 1.0.0
+ * @copyright © 2017 Bilger Yahov, all rights reserved.
  */
 
 `use strict`;

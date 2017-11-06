@@ -4,6 +4,10 @@
  * Search for a given value (key) inside of a list (numArray).
  * Runs in O(log n) run time - very performant.
  * Can be written as a recursive function.
+ *
+ * @author Bilger Yahov <bayahov1@gmail.com>
+ * @version 1.0.0
+ * @copyright © 2017 Bilger Yahov, all rights reserved.
  */
 
 `use strict`;

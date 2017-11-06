@@ -12,6 +12,10 @@
  * @Rules:
  * 1. Result should be an array of arrays
  * 2. Any number can be used in multiple pairs
+ *
+ * @author Bilger Yahov <bayahov1@gmail.com>
+ * @version 1.0.0
+ * @copyright © 2017 Bilger Yahov, all rights reserved.
  */
 
 `use strict`;

@@ -8,6 +8,10 @@
  * If the number to be printed is divisible by 5, print `Buzz`.
  * If the number to be printed is divisible by both 3 and 5, print `FizzBuzz`.
  * Otherwise print just the number.
+ *
+ * @author Bilger Yahov <bayahov1@gmail.com>
+ * @version 1.0.0
+ * @copyright © 2017 Bilger Yahov, all rights reserved.
  */
 
 `use strict`;
