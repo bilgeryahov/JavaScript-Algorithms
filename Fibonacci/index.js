@@ -15,6 +15,23 @@
 
 `use strict`;
 
+/**
+ * Has exponential time complexity. O(2^n), NOT n^2 !!!.
+ *
+ *    O(2^n)  O(n^2)
+ * |   .    .
+ * |   .   .
+ * |   .  .
+ * |  . .
+ * | . .
+ * |.______________
+ *
+ *
+ * @param position
+ *
+ * @return {*}
+ */
+
 function fibonacci(position) {
 	if(position < 3){
 		return 1;
