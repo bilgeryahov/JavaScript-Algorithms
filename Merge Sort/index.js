@@ -5,6 +5,25 @@
  * The first function takes an array as a single parameter.
  * The second function takes two sorted arrays as parameters.
  *
+ * @Example:
+ *                            mergeSort([4, 3, 2, 1])
+ *                                FH = [4, 3]
+ *                                SH = [2, 1]
+ *               return merge(mergeSort([4, 3]), mergeSort([2, 1]))
+ *
+ *
+ *           FH = [4]                                               FH = [2]
+ *           SH = [3]                                               SH = [1]
+ *   return merge(mergeSort([4]), mergeSort([3]))  return merge(mergeSort([2]), mergeSort([1]))
+ *
+ *                  return merge([4], [3])                      return merge([2], [1])
+ *
+ *                      return [3, 4]                               return [1, 2]
+ *
+ *                                      return merge([3, 4], [1, 2])
+ *
+ *                                         return [1, 2, 3, 4]
+ *
  * @author Bilger Yahov <bayahov1@gmail.com>
  * @version 1.0.0
  * @copyright © 2017 Bilger Yahov, all rights reserved.
